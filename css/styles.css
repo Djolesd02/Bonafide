@@ -1,0 +1,544 @@
+body {
+    font-family: DINBek;
+}
+.container.header {
+    position: fixed;
+    height: 100px;
+    z-index: 111;
+    width:100%;
+}
+.logo {
+    display: block;
+    float: left;
+    padding: 0px 0px 0px 100px;
+}
+.container.header menu {
+    display: inline-block;
+}
+.col-md-6 a {
+    color: #fffaef;
+    display: block;
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 1111;
+}    
+.dirigent {
+    overflow: visible;
+    position: relative;
+}
+.dirigent img {
+    width: 100%;
+    height: 20%;
+}
+.col-md-6 a:hover {
+    text-decoration: none;
+    color: aquamarine;
+}
+.services {
+    width: 100%;
+    height: auto;
+    background: #fffaef;
+}
+.servisi1 {
+	text-align: center;
+	font-size: 65px;
+    font-family: DINBek;
+}
+.servisi {
+    text-align: center;
+	font-size: 65px;
+    font-family: DINBek;
+    padding-top: 30px;
+}
+.tekst1 {
+	text-align: center;
+	font-size: 16px;
+	font-family: DINBek;
+}
+.container.services {
+    width: 100%;
+    height: 300px;
+}
+.services-box {
+	border: 1px solid #c0b1aa;
+	padding: 70px 50px 50px;
+	height: 280px;
+}
+.headhunting .recruitment .rec-adv {
+    text-align: center;
+    font-size: 20px;
+}
+.col-md-6 li {
+    display: inline-block;
+    margin: 0px 25px;
+}
+.services-box img {
+	display: block;
+	margin: 0px auto 5px auto;
+	position: absolute;
+	top: -77px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.ime {
+    font-size: 22px;
+
+}
+.citat {
+    font-size: 40.61px;
+    font-family: Din Alternate;
+    font-weight: 400px;
+}
+.s1 {
+    padding-bottom: 40px;
+}
+.text1 {
+	text-align: center;
+	font-size: 14px;
+    font-family: DINBek;
+}
+.industries {
+    background-color: #431515;
+    width: 100%;
+    height: 300px;
+}
+.naslov1 {
+	color: white;
+	text-align: center;
+	padding: 20px 0px 0px 0px;
+	font-size: 65px;
+	font-family: DINBek;
+}
+.manufacturing, .automotive, .aerospace {
+    display: inline-block;
+    height: 170px;
+}
+.text2 {
+	color: white;
+	text-align: center;
+	font-size: 27px;
+	font-family: DINBek;
+} 
+.manufacturing img {
+    display: block;
+    margin: auto;
+}
+.automotive img {
+    display: block;
+    margin: auto;
+}
+.aerospace img {
+    display: block;
+    margin: auto;
+}
+.citat1 {
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    color: white;
+    font-size: 30px;
+    z-index: 111;
+}
+.automotive {
+    padding: 80px 0px 0px 0px; 
+}
+.clients {
+    height: 350px;
+    background-image: url(../images/hjngh.jpg);
+    
+}
+.text3 {
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+    font-family: Georgia;
+    position: relative;
+}
+.text4 {
+    text-align: center;
+    padding-top: 21px;
+}
+.hr {
+    background-color: #431515;
+    width: 140px;
+    text-align: center;
+    height: 2px;
+    margin: auto;
+}
+.link1 {
+
+    text-align: center;
+    padding-top: 50px;
+
+}
+.strong1 {
+    font-family: Proxima Nova;
+}
+b, strong {
+    font-weight: 900;
+}
+.normal {
+    font-family: Proxima Nova;
+}
+.link1 a:hover {
+    text-decoration:none;
+}
+.link1 a {
+    color: white;
+    background-color: #431515;
+    margin: auto;
+    padding: 8px 30px;
+    display: inline-block;
+    font-size: 22px;
+    width: 230px;
+}
+.tekst1 {
+    margin: 40px 40px 120px 40px;
+}
+.p1 {
+    font-size: 25px;
+    height: 55px;
+    display: flex;
+    line-height: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.pozadina {
+    position: relative;
+}
+.bonafide {
+    height: 450px;
+    background-image: url(../images/fff.jpg);
+}
+.link2 {
+    text-align: center;
+    padding-top: 60px;
+}
+.link2 a {
+        background-color: #fffaef;
+        color: #431515;
+        margin: auto;
+        padding: 8px 30px;
+        display: inline-block;
+        border-color: 10px #431515;
+        margin-right: 350px;
+        width: 230px;
+        font-size: 22px;
+        border: 3px solid;
+    
+}
+.link2 a:hover {
+    text-decoration: none;
+    background-color: #431515;
+    color: white;
+}
+.mix p {
+    text-align: center;
+    font-size: 20px;
+    margin-right: 350px;
+    line-height: 1.7;
+}
+.mix h3 {
+    margin:55px;
+    margin-right: 350px;
+    color: #3b1111;
+    font-size: 35px;
+    text-align: center;
+}
+.footer {
+    background-color: black;
+    width:100%;
+    text-align: center;
+    height:100px;
+}
+.footer img {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	margin-top: 50px;
+}
+.row.footer {
+    text-align: center;
+    padding-top: 45px;
+}
+.aerospace {
+    padding: 5px 0px 0px 0px;
+}
+.footer1 p {
+    color: white;
+}
+.footer2 p {
+    color: white;
+}
+.p11 {
+    font-size: 22px;
+
+}
+.text3::before {
+	position: absolute;
+	top: -50px;
+	left: 0;
+	content: "“";
+	color: #000;
+	opacity: 0.3;
+	font-size: 260px;
+	line-height: 1;
+}
+.container.klijenti {
+    padding-top: 80px;
+}
+.row.m {
+	margin-top: 23px;
+}
+.hr1 {
+    background-color: #65503d;
+    width: 133px;
+    text-align: center;
+    height: 2px;
+
+    margin-bottom: 10px;
+}
+.ime::before {
+	position: absolute;
+	top: -12px;
+	left: 0px;
+	content: "";
+	background: #65503d;
+	font-size: 10px;
+	line-height: 1;
+	width: 100%;
+	height: 2px;
+    z-index: 111111;
+}
+.ime {
+	position: relative;
+	display: inline-block;
+}
+.swiper-pagination {
+	position: absolute;
+	text-align: center;
+	-webkit-transition: .3s opacity;
+	-o-transition: .3s opacity;
+	transition: .3s opacity;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0) translateX(-50%);
+	z-index: 10;
+	left: 50%;
+}
+.swiper-pagination-bullet-active {
+
+	background: white;
+}
+.swiper-pagination-bullet {
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	border-radius: 100%;
+	background: #fffaef;
+	margin-left: 10px;
+}
+
+/* resposive */
+@media only screen and (max-width: 1200px) {
+    .link2 a {
+        margin-right: auto;
+    }
+    .mix p {
+        margin-right: auto;
+    }
+    .mix h3 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .text3::before {
+        left: -43px;
+        top: -70px;
+    }
+    .text3 {
+        font-size: 17px;
+    }    
+    .col-md-6 li {
+        margin: 0px 12px;
+    }    
+    .citat {
+        font-size: 34.61px;
+    }       
+}
+@media only screen and (max-width: 1024px) {
+    .col-md-6 li {
+        margin: 0px 4px;
+    }
+    .citat {
+        font-size: 29.61px;
+    }
+    .text3 {
+        font-size: 14px;
+    }
+    .text3::before {
+        left: -51px;
+        top: -72px;
+    }
+    .s1 {
+        width: 50%;
+    }
+    .mix p {
+        line-height: 1.5;
+    }
+    .bonafide {
+
+        height: 420px;
+    }
+    .aerospace img  , .automotive img , .manufacturing img  {
+        width: 150px;
+    }
+    .aerospace {
+        padding: 18px 0px 0px 0px;
+    }
+    .manufacturing {
+        padding: 8px 0px 0px 0px;
+    }
+    .r1 img {
+        width: 190px;
+    }
+    .r2 img {
+        width: 120px;
+    }
+    .r3 img {
+        width: 120px;
+    }
+    .r4 img {
+        width: 130px;
+    }
+    .services-box img {
+        top: -65px;
+    }    
+    .s1 {
+        padding-bottom: 85px;
+    }
+    .servisi {
+        font-size: 45px; }
+    .naslov1 {
+            font-size: 45px;
+        }    
+}
+@media only screen and (max-width: 992px) {
+    .col-md-6 li {
+        margin: 0px 3px;
+    }
+    .text3 {
+        font-size: 13px;
+    }
+    .text3::before {
+        left: -32px;
+        top: -74px;
+    }
+    .citat {
+        font-size: 28.61px;
+    }    
+}
+@media only screen and (max-width: 768px) {
+.footer2 {
+    float: right;
+}
+.footer1 {
+    float: left;
+}
+.text3 {
+    font-size: 12px;
+}
+.text3::before {
+    left: -41px;
+    top: -75px;
+}
+.citat {
+    font-size: 21.61px;
+}
+.link2 {
+    padding-top: 42px;
+}
+.mix p {
+    line-height: 1.4;
+}
+.bonafide {
+	height: 410px;
+}
+.s1 {
+    float: left;
+    width: 50%;
+}
+}
+@media only screen and (max-width: 767px) {
+    .text3::before {
+        left: -34px;
+        top: -75px;
+    }
+    .link2 a {
+        font-size: 15px;
+        width: auto;
+    }
+    .link1 a {
+        font-size: 15px;
+        width: auto;
+    }
+    .clients {
+        height: auto;
+    }
+    .bonafide {
+        height: auto;
+        padding:  15px 30px;
+    }
+    .link1 {
+         padding-top: 30px;
+    }
+    .text3 {
+        font-size: 12px;
+        padding-left: 66px;
+        text-align: left;
+    }
+    .text3::before {
+        left: -10px;
+        top: -10px;
+        font-size: 140px;
+    }
+    .aerospace img  , .automotive img , .manufacturing img  {
+        width: 120px;
+    }
+    .aerospace {
+        padding: 30px 0px 0px 0px;
+    }
+    .manufacturing {
+        padding: 22px 0px 0px 0px;
+    }   
+    .s1 {
+        float: left;
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 480px) {
+    .mix p {
+        font-size: 16px;
+    }
+    .clients {
+        height: auto;
+        padding: 30px 15px;
+    }
+    .container.klijenti {
+        padding-top: 20px;
+    }
+    .clients {
+        height: auto;
+        background: url(../images/hjngh.jpg) center center / cover;
+    }
+    .container.klijenti {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }    
+}

@@ -1,0 +1,271 @@
+body {
+    font-family: DINBek;
+}
+.container.header {
+    position: fixed;
+    height: 100px;
+    z-index: 111;
+    width:100%;
+}
+.logo {
+    display: block;
+    float: left;
+    padding: 0px 0px 0px 0px;
+}
+.container.header menu {
+    display: inline-block;
+}
+.col-md-6 a {
+    color: #fffaef;
+    display: block;
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 1111;
+}   
+.col-md-6 a:hover {
+    text-decoration: none;
+    color: aquamarine;
+}
+.col-md-6 li {
+    display: inline-block;
+    margin: 0px 25px;
+}
+.pisanije {
+    overflow: visible;
+    position: relative;
+}
+.slika1 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.maska {
+	position: absolute;
+	top: 0%;
+    left: 0%;
+    width: 100%;
+}
+.blog {
+	height: 1615px;
+	width: 100%;
+	background-image: url(../images-blog/maska2.png);
+}
+.hr {
+    background-color: #7f7d78;
+    width: 276px;
+    text-align: center;
+    height: 2px;
+    margin: auto;
+}
+.h2 {
+    text-align: center;
+    font-size: 65px;
+    color: #3b1111;
+}
+.col-md-2 {
+	width: 100%;
+}
+.div1 {
+	position: relative;
+	background-color: #e3d8cf;
+	width: 870px;
+    height: 165px;
+    border-radius: 20px;
+    margin: auto;
+	margin-top: 50px;
+}
+.div11 {
+    padding-left: 125px;
+    padding-right: 40px;
+}
+.title {
+	font-size: 34px;
+	color: #3b1111;
+}
+.blogitem1 {
+    margin-top: 100px;
+}
+.div1:hover {
+ background-color: #aa938e;
+}
+
+.hr1 {
+	background-color: #7f7d78;
+	width: 100%;
+	height: 2px;
+    margin: auto;
+    border: 0;
+    margin-bottom: 2px;
+}
+.tekst1 {
+	font-size: 20px;
+}
+.datum {
+	background-color: #431515;
+	position: absolute;
+	width: 165px;
+	height: 165px;
+	text-align: center;
+	border-radius: 100px;
+	top: 0%;
+	left: -9%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+}
+.datum-1 {
+	color: white;
+	font-size: 45px;
+	margin-bottom: 0px;
+    line-height: 0.8;
+}    
+.datum-2 {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+.div1:hover .datum-1 {
+    color: #aa938e;
+}
+.div1:hover .datum-2 {
+    color: #aa938e;
+}
+.paginacija {
+    display: inline-block;
+}
+.svajper {
+	padding-top: 0;
+	width: 55px;
+	display: inline-block;
+	height: 55px;
+	border-radius: 50%;
+	background: #431515;
+    position: relative;
+    margin: 0 5px;
+}
+.broj1 {
+	position: absolute;
+	z-index: 111;
+	color: white;
+	top: 50%;
+	left: 50%;
+	font-size: 25px;
+	transform: translate(-50%, -50%);
+}
+.broj2 {
+	position: absolute;
+	z-index: 111;
+	color: white;
+	top: 50%;
+	left: 50%;
+	font-size: 25px;
+	transform: translate(-50%, -50%);
+}
+.broj3 {
+	position: absolute;
+	z-index: 111;
+	color: white;
+	top: 50%;
+	left: 50%;
+	font-size: 25px;
+	transform: translate(-50%, -50%);
+}
+.broj4 {
+	position: absolute;
+	z-index: 111;
+	color: white;
+	top: 50%;
+	left: 50%;
+	font-size: 25px;
+	transform: translate(-50%, -50%);
+}
+.footer {
+    background-color: black;
+    width:100%;
+    text-align: center;
+    height:170px;
+}
+.footer img {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	margin-top: 50px;
+}
+.row.footer {
+    text-align: center;
+    padding-top: 45px;
+}
+.aerospace {
+    padding: 5px 0px 0px 0px;
+}
+.footer1 p {
+    color: white;   
+}
+.footer2 p {
+    color: white;
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .col-md-6 li {
+        margin: 0px 20px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .col-md-6 li {
+        margin: 0px 12px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .col-md-6 li {
+        margin: 0px 4px;
+    }
+    .div1 {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .logo {
+        padding: 0px 0px 0px 9px;
+    }
+    .col-md-6 li {
+        margin: 0px 14px;
+    }
+    .div1 {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 480px) {
+
+    .tekst1 {
+        font-size: 16px;
+        line-height: 0.8;
+    }
+    .div11 {
+        padding-left: 20px;
+    }
+    .div1 {
+        border-radius: 0 40px 0 0;
+    }
+    .datum {
+        width: 43px;
+        border-radius: 0 0 0 40px;
+    }
+    .blogic {
+        padding-left: 37px;
+    }
+    .datum-1 {
+        font-size: 35px;
+    }
+    .datum-2 {
+        font-size: 16px;
+    }
+}
